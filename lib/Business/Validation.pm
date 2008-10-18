@@ -5,7 +5,7 @@ use vars qw($VERSION);
 require version;
 
 BEGIN {
-    $VERSION = version->new('0.01');
+    $VERSION = version->new('0.02');
 }
 
 1;

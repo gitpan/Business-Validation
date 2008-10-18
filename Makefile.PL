@@ -6,17 +6,13 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME         => 'Business::Validation',
     VERSION_FROM => 'lib/Business/Validation.pm', # finds \$VERSION
-    AUTHOR       => 'Bob Stockdale (robert.stockdale@gmail.com)',
+    AUTHOR       => 'Bob Stockdale (stocks@cpan.org)',
     ABSTRACT     => 'Business rule validation framework.',
     PREREQ_FATAL => 1,
     PREREQ_PM    => {
                         'Class::Param'     => undef,
                         'Class::Accessor'  => undef,
                         'Params::Validate' => undef,
-                        'Test::Class'      => undef,
-                        'Test::More'       => undef,
-                        'Test::Deep'       => undef,
-                        'Test::Exception'  => undef,
                         'version'          => undef,
                     },
 );

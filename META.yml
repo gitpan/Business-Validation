@@ -1,0 +1,20 @@
+ --- #YAML:1.0
+ name: Business-Validation
+ abstract: Business rule validation framework
+ version: 0.02
+ author:
+   - Robert Stockdale <stocks@cpan.org>
+ license: perl
+ distribution_type: module
+ requires:
+   Class::Param: 0
+   Class::Accessor: 0
+   Params::Validate: 0
+   version: 0
+ build_requires:
+   Test::Class: 0
+   Test::More: 0
+   Test::Deep: 0
+   Test::Exception: 0
+ urls:
+   license: http://dev.perl.org/licenses/

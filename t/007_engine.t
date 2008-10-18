@@ -56,7 +56,7 @@ sub validate : Test(2) {
     ok( !$success, 'Engine returned failure' );
 
     isa_ok( $self->engine()->get_results(), 'Business::Validation::Result',
-        'get_results() returned a Business::Validation::Results object' );
+        'get_results() returned a Business::Validation::Result object' );
 
     return;
 }

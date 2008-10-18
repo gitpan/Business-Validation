@@ -1,6 +1,3 @@
 TODO list for Perl module BizR
 
-- Remove lib lines from tests that will cause them to only pass on the main
-  development server.
-
-
+- Add META.yml file.

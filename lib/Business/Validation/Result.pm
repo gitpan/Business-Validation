@@ -79,7 +79,7 @@ sub absorb_result {
 
 =head1 NAME
 
-Business::Validation::Results
+Business::Validation::Result
 
 =head1 DESCRIPTION
 
